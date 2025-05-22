@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PickACardUI", "04_PickAC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Bet", "05_Bet\05_Bet.csproj", "{2CCCEC02-2A65-443E-818D-667B16713389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_AbilityScoreCalculator", "06_AbilityScoreCalculator\06_AbilityScoreCalculator.csproj", "{C7541A7A-F1D4-4B90-8540-C6D7616C1C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ChangingReferences", "07_ChangingReferences\07_ChangingReferences.csproj", "{7F53926A-93FC-4ECC-89D3-AE0C47EEC6EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2CCCEC02-2A65-443E-818D-667B16713389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CCCEC02-2A65-443E-818D-667B16713389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CCCEC02-2A65-443E-818D-667B16713389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7541A7A-F1D4-4B90-8540-C6D7616C1C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7541A7A-F1D4-4B90-8540-C6D7616C1C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7541A7A-F1D4-4B90-8540-C6D7616C1C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7541A7A-F1D4-4B90-8540-C6D7616C1C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F53926A-93FC-4ECC-89D3-AE0C47EEC6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F53926A-93FC-4ECC-89D3-AE0C47EEC6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F53926A-93FC-4ECC-89D3-AE0C47EEC6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F53926A-93FC-4ECC-89D3-AE0C47EEC6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
