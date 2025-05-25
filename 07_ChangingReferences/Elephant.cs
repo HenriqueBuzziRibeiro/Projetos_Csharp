@@ -23,5 +23,16 @@ namespace _07_ChangingReferences
             Console.WriteLine($"My name is {name}.");
             Console.WriteLine($"My ears are {earSize} inches tall.");
         }
+
+        public void HearMessage(string message, Elephant whoSaidIt)
+        {
+            Console.WriteLine(name + " heard a message.");
+            Console.WriteLine(whoSaidIt.name + " said this: " + message);
+        }
+
+        public void SpeakTo(string message, Elephant whoTalkTo)
+        {
+            whoTalkTo.HearMessage(message, this); //esse 'This' envia uma referência de si mesmo para outro Elephant
+        }
     }
 }
