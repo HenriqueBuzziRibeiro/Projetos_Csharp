@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,15 +32,15 @@ namespace _09_SwordDamage
             {
                 MagicMultiplier = 1M;
             }
-            CalculateDamage();
+
+            Debug.WriteLine("MagicMultiplier: " + MagicMultiplier + "   Roll: " + Roll + "   Damage: " + Damage); //toda vez que marcarmos o checkBox ou desmarcarmos será impresso essa linha no 'Output'
         }
 
         public void SetFlaming(bool isFlamings)
-        {
-            CalculateDamage();
+        {  
             if (isFlamings)
             {
-                Damage = Damage + FLAME_DAMAGE;
+                FlamingDamage = FLAME_DAMAGE;
             }
         }
     }

@@ -19,7 +19,7 @@
         <CheckBox x:Name="checkBoxMagic" Grid.Column="1" Content="Magic" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Checked="Magic_Checked" Unchecked="Magic_Unchecked"/>
         <CheckBox x:Name="checkBoxFlaming" Content="Flaming" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Checked="Flaming_Checked" Unchecked="Flaming_Unchecked"/>
         <Button x:Name="buttonRoll" Content="Roll for damage" HorizontalAlignment="Left" Margin="20,10,20,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="257" Click="buttonRoll_Click"/>
-        <TextBlock x:Name="displayDamage" HorizontalAlignment="Left" Margin="125,13,0,0" Grid.Row="2" TextWrapping="Wrap" Text="damage" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="50"/>
+        <TextBlock x:Name="displayDamage" HorizontalAlignment="Left" Margin="82,17,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Damage" VerticalAlignment="Top" Width="135" TextAlignment="Center" Grid.ColumnSpan="2"/>
 
 
 

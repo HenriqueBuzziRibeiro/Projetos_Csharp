@@ -60,7 +60,7 @@ namespace _09_SwordDamage
 
         public void Displaydamage()
         {
-            displayDamage.Text = swordDmg.Damage + "HP";
+            displayDamage.Text = "Rolled " + swordDmg.Roll + "for" + swordDmg.Damage + "HP";
         }
     }
 }
