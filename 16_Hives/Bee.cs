@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Permissions;
@@ -7,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace _16_Hives
 {
-    internal class Bee
+    abstract internal class Bee
     {
         public string Job { get; private set; }
-        public virtual float CostPerShift { get; }
+        public abstract float CostPerShift { get; }
 
         public Bee(string job) 
         {
@@ -26,7 +27,7 @@ namespace _16_Hives
             }
         }
 
-        protected virtual void DoJob() { } //sobreescrito por subclasse
+        protected abstract void DoJob(); //sobreescrito por subclasse, não pode ter corpo "{}" pois é abstrata
     }
 
     /// <summary>
@@ -42,7 +43,7 @@ namespace _16_Hives
         private float unassignedWorkers = 3; //numero de operarias aguardando distribuiçãoo
 
         public string StatusReport { get; private set; }
-        public override float CostPerShift { get { return 2.15f; } }
+        public override float CostPerShift { get { return 2.15f; } } //usa override tanto para 'virtual' quanto para 'abstract'
         
         public Queen() : base("Queen") 
         {
@@ -206,10 +207,19 @@ namespace _16_Hives
             {
                 if (honey < LOW_LEVEL_WARNING)
                 {
-                    Console.WriteLine("LOW HONEY - ADD A HONEY MANUFACTURE");
+                    Console.WriteLine("LOW HONEY - ADD A HONEY MANUFACTURE");      
                 }
                 return $"{(int)honey}\n{(int)nectar}";
             }
         }
     }
+
+    interface IDefend //qualquer classe que implementa a interface IDefend deve incluir um método 'Defend'
+    {
+        void Defend();
+    }
+
+
+
+
 }

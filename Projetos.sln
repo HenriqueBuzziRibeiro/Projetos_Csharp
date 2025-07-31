@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_WeaponsDamage", "15_Weap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Hives", "16_Hives\16_Hives.csproj", "{7587DCF9-EE0B-432B-9D5B-6D4AB1932B50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_TallGuy", "17_TallGuy\17_TallGuy.csproj", "{A62A2D88-034F-469D-894C-F9F9B03D4ACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{7587DCF9-EE0B-432B-9D5B-6D4AB1932B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7587DCF9-EE0B-432B-9D5B-6D4AB1932B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7587DCF9-EE0B-432B-9D5B-6D4AB1932B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62A2D88-034F-469D-894C-F9F9B03D4ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62A2D88-034F-469D-894C-F9F9B03D4ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62A2D88-034F-469D-894C-F9F9B03D4ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62A2D88-034F-469D-894C-F9F9B03D4ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
